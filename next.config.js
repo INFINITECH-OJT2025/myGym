@@ -8,6 +8,8 @@ const nextConfig = {
   },
   typescript: {
     ignoreBuildErrors: true, // ✅ Ignore TypeScript errors during builds
+  },experimental: {
+    missingSuspenseWithCSRBailout: false,
   },
 };
 
