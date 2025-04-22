@@ -1,7 +1,7 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Fitness & Gym",
+  name: "Next.js + HeroUI",
   description: "Make beautiful websites regardless of your design experience.",
   navItems: [
     {
@@ -34,6 +34,32 @@ export const siteConfig = {
     },
     
   ],
-  
+  navMenuItems: [
+    {
+      label: "Home",
+      href: "/",
+    },
+    {
+      label: "Facilities",
+      href: "#facilities",
+    },
+    // {
+    //   label: "Review",
+    //   href: "/review",
+    // },
+    {
+      label: "BMI",
+      href: "#bmi",
+    },
+    {
+      label: "Contact",
+      href: "#contact",
+    },
+    {
+      label: "About",
+      href: "#about",
+    },
+    
+  ],
   
 };
